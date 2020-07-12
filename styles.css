@@ -1,0 +1,22 @@
+body{
+	background-image: url('background-image.jpg') ;
+	display: grid;
+}
+
+.container{
+	position: relative;
+	margin: auto;
+	background: white;
+	width: 50%;
+	height: 200px;
+	border-radius: 25px;
+
+}
+
+.box{
+	position: relative;
+	margin: 10px;
+	background: green;
+	text-align: center;
+	/*border: 2px solid blue;*/
+}
