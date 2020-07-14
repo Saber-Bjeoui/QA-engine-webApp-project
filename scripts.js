@@ -1,7 +1,12 @@
 $(document).ready(function(){
-$('.login-container').hide();
+$('.login-container').show(function(){
+		$(this).animate({
+			opacity: 1
+		})
+	});
 $('.container').hide();
-$('.home-container').show()
+$('.home-container').hide();
+$('.add-question-container').hide()
 
 /*$(document).click(function(){
 	$('.login-container').show(function(){
@@ -13,7 +18,14 @@ $('.home-container').show()
 	$('.home-container').hide()
 })*/
 
-
+$('#submit').click(function(){
+	$('.login-container').hide();
+	$('.home-container').show(function(){
+		$(this).animate({
+			opacity: 1
+		})
+	});
+})
 
 
 

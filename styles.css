@@ -184,10 +184,10 @@ input:focus{
 	padding-left: 10px;
 	margin-left: 10px;
 	margin-bottom: 10px;
-	width: 80%;
+	width: 100%;
 }
 .author-avatar{
-	width: 50px;
+	width: 40px;
 	margin: 0px;
 }
 .author-avatar img {
@@ -199,9 +199,22 @@ input:focus{
 	float: left;*/
 }
 
+.add-comment input {
+	width: 90%;
+	text-align: left;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .home-container {
     width: 100%;
+    top:10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  .home-container {
+    width: 60%;
   }
 }
